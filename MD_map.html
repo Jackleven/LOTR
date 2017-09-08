@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>testing draggable</title>
+     
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/timeline.css">
+        <link rel="stylesheet" href="css/map_style.css">
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Tangerine" rel="stylesheet"> 
+    </head>
+    <body>
+    
+        <div class="mid header">
+        <h1>A Hobbit's journey through the Lord of the Rings</h1>
+        <h2>The Two Towers</h2>
+        </div>
+        
+        <div class="hide">
+         <select id="group_options">
+          <option value="1">Hobbits</option>
+          <option value="2">Gandalf</option>
+          <option value="3">Heores</option>
+        </select>
+            <button id="group_btn">change group</button>
+        </div>
+<div>
+  
+ <button class="hide" id="ani">
+  animation call
+  </button>
+     
+  <button class="hide" id="JSON_btn">
+  JSON make
+  </button>
+                    
+</div>
+        <div id="moveDiv">
+            <img id="frodo" width="35" height="35" src="img/group1_icon.jpg" alt="Frodo and Sam">
+            </div>
+        
+      
+        
+        
+        <div id="map_cont" class="mid">
+            
+           <div class="can_box_size">
+             <canvas id="myCanvas"></canvas>
+           </div>
+           
+        
+  
+           
+           <div id="pic-cont">
+               <img id="drag-image" src="img/map.jpg" draggable="false">
+            </div>
+       
+            
+        
+    <div class="center">
+     
+        <div id="timelineC" class="timePlug">
+               <button class="animate_btn"id="btn">
+                Continue Journey
+                </button>
+            <div id="container"></div>
+        </div> 
+    </div>     
+            
+        </div>
+        
+        
+        
+        
+        <div id="popup_big_cont" class="popup">
+            
+            <div id="date" class="date">Date</div>
+            <div id="location" class="location">Location</div><!-- date and location -->
+            
+            
+            
+                <div id="pic_pop" class="pic_pop">
+                <!--  <img id="des_img" src="img/map.jpg">picture -->
+                </div>
+                
+                <div id="des"><!-- description -->
+                    "descriptionj will go in here"
+                    "descriptionj will go in here"
+                </div>
+           
+            
+            
+            
+        
+        
+        
+    </div>
+      
+      <script src='js/jquery.min.js'></script>
+        <script src='js/json2.js'></script>
+         
+        <script src="js/map_js.js"></script>
+      
+        <script src="js/timeline.js"></script>
+      
+    </body>
+    
+    
+</html>

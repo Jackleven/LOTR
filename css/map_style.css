@@ -1,0 +1,218 @@
+body{
+    box-sizing: border-box;
+    background-image: url("../img/table.jpg");
+}
+
+.mid{
+display: block;
+    margin: auto;
+    
+    width: 1920px;
+
+    
+}
+.header{
+    color: white;
+   
+}
+
+
+
+#pic-cont{
+ display: block;
+	
+       
+
+	width: 1920px;
+    height: 1080px;
+
+    
+}
+
+.can_box_size{
+    display: block;
+       
+
+	width: 1920px;
+    height: 1080px;
+    
+    position: absolute;
+    z-index: 5;
+    
+}
+
+#drag-image {
+	width: 1920px;
+    height: 1080px;
+	
+}
+
+
+
+
+
+
+
+
+
+    
+  
+    
+    #frodo{
+        border: 2px solid #0b5c0e;
+    border-radius: 100px;
+        
+   
+    animation: icon 1s;
+    
+   
+    animation-iteration-count: 5000;
+    }
+
+    
+@keyframes icon {
+    from {border-color: #136916;}
+    to {border-color: #083b0a;}
+}
+
+
+    
+    #frodo:hover{
+        border: 2px solid #3d9f2b;
+    border-radius: 100px;
+    }
+    
+    #moveDiv{
+      position: absolute;
+        z-index: 200;
+      
+      }
+    
+
+
+
+
+
+
+h1{
+    
+    text-align: center;
+   font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    
+    
+    
+}
+h2{
+    
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    
+    
+}
+
+
+
+
+
+
+
+
+.center{
+    display: block;
+    
+    width: 100%;
+    
+     position: fixed;
+    z-index: 100;
+    
+    bottom: 0;
+    
+}
+
+
+.timePlug{
+    width: 80%;
+    display: block;
+   margin: auto;
+   
+}
+
+
+
+
+
+
+.popup{
+    display: none;
+    width: 200px;
+    height: auto;
+    background-color: rgba(31, 93, 33, 0.89);
+    border: 1px solid #cd9d32;
+    color: #d4ce34;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 500;
+    
+}
+
+.date{
+   border: 1px solid #cd9d32;
+    
+    
+    
+}
+.location{
+   border: 1px solid #cd9d32;
+    
+    
+    
+}
+.des_box{
+    border: 1px solid #cd9d32;
+    
+    
+}
+.pic_pop img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #cd9d32;
+    
+    
+}
+
+.animate_btn{
+    position: fixed;
+    top: 540px;
+    left: 596px;
+    z-index: 600;
+    
+    border-radius: 18px;
+    padding: 10px;
+    border: 4px solid rgba(138, 160, 134, 0.97);
+    background-color: rgba(31, 93, 33, 0.89);
+    color: #d4ce34;
+    
+}
+
+
+
+
+.hide{
+    display: none;
+    
+}
+
+.mast{
+    display: none;
+    
+    
+}
+
+.intro{
+    display: block;
+    
+}
