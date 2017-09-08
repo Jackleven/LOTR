@@ -515,7 +515,7 @@ window.scroll(280, 0);
 
     }
 
-setTimeout(start, 100);
+setTimeout(start, 4000);
 
 
 	function otrue() {
